@@ -1,0 +1,196 @@
+body {
+    margin:0;
+    background:#fff;
+    color:#222;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+   }
+
+/*-- HEADER --*/
+
+/* Navbar responsive sticky part*/
+
+.navbar {
+    margin-top: 12px;
+    background-color: #fff;
+}
+
+.navbar-brand {
+    margin-left: 7.5px;
+}
+
+.search-bar {
+    border: 1px solid #dfe1e5;
+    border-radius: 44px;
+    width: 37.5%;
+    margin-left: 30px;
+    line-height: 2.5;
+}
+
+.search-field {
+    border: none;
+    margin-left: 18px;
+    font-size: 16px;
+}
+
+.fixed {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 2;
+}
+
+/* Navbar non-responsive sticky part*/
+
+.navbar-space {
+    padding-left: 875px;
+}
+
+.google-apps {
+    background-image:url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    opacity: .55;
+    background-size: 528px 68px;
+    background-position: -130px -36px;
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.google-apps:hover {
+    opacity: .55;
+}
+
+.sign-in {
+    margin: 10px;
+    width: 96px;
+    height: 36px;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #2b7de9;
+    border: 1px solid transparent;
+    color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+
+.sign-in:hover {
+    opacity: .95;
+    box-shadow: 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+
+/* Navbar non-sticky part */
+
+#nav-option {
+    border-bottom: 1px solid rgba(33,33,33,0.10);
+    line-height: 48px;
+    margin-top: 4px;
+    font-size: small;
+}
+
+#option-bar-active {
+    width: 47px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 3px solid #1a73e8;
+}
+
+#option-bar-active {
+    text-decoration: none;
+    color: #5f6368;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+.option-bar a {
+    text-decoration: none;
+    color: #5f6368;
+    margin: 10px;
+}
+
+.option-bar button {
+    border: none;
+    color: #5f6368;
+    background-color: #fff;
+    font-size: small;
+    padding-left: 0px !important;
+}
+
+.dropdown-menu {
+    border: 1px solid rgba(33,33,33,0.10);
+    font-size: 14px;
+    min-width: 100px;
+    border-radius: 10px;
+    margin-left: -15px;
+    line-height: 32px;
+    text-align: left;
+}
+div.cf:hover{
+    background: rgba(0,0,0,.1);
+}
+
+svg {
+    height: 16px;
+    width: 16px;
+    opacity: .60;
+}
+
+.page-setting {
+    margin-left: -675px;
+}
+
+.page-setting a {
+    text-decoration: none;
+    color: #5f6368;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.cf {
+    text-transform: capitalize;
+}
+
+
+/* Responsive changes */
+@media (max-width:960px){
+
+    .search-bar {
+        width: 78%;
+    }
+
+    .navbar-space, .google-apps, .sign-in {
+        visibility: collapse;
+    }
+
+    .col-8 {
+        max-width: 545px;
+    }
+
+    .col-1 {
+        padding-right: 135px;
+    }
+    
+    .page-setting {
+        float: right;
+        margin-left: 0px;
+        max-width: 200px;
+    }
+}
+
+.mw {
+    max-width: 652px;
+    padding: 0 0 0 0;
+    margin-right: 264px;
+    margin-left: 180px;
+}
+
+.app-bar {
+    line-height: 43px;
+    vertical-align: center;
+    color: #70757a;
+}
