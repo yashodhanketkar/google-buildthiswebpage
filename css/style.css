@@ -165,6 +165,7 @@ svg {
 
     .navbar-space, .google-apps, .sign-in {
         visibility: collapse;
+        padding-left: 0px;
     }
 
     .col-8 {
