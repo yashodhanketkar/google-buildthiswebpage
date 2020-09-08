@@ -157,6 +157,7 @@ svg {
 
 
 /* Responsive changes */
+
 @media (max-width:960px){
 
     .search-bar {
@@ -191,7 +192,36 @@ svg {
 }
 
 .app-bar {
-    line-height: 43px;
-    vertical-align: center;
+    line-height: 50px;
     color: #70757a;
+}
+
+/* content */
+
+.page {
+    color: #5f6368;
+    padding-bottom: 30px;
+}
+
+.page a:hover {
+    text-decoration: none;
+}
+
+.title {
+    font-size: 20px;
+    color: #1a0dab;
+}
+
+a .title:hover {
+    text-decoration: underline;
+}
+
+cite {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+
+cite span {
+    color: #5f6368;
 }
